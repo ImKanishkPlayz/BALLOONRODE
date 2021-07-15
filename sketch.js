@@ -55,7 +55,7 @@ function draw() {
 }
 
 function updateHeight(x,y){
-  database.ref('balloon/position').set({
+  database.ref('balloon/height').set({
       'x': position.x + x, 
       'y': position.y + y
   })
